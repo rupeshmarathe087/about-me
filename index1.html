@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Window UI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #e0e0e0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .window {
+      width: 600px;
+      background: #fff;
+      border: 2px solid #555;
+      border-radius: 8px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+
+    .title-bar {
+      background: #0078d7;
+      color: white;
+      padding: 10px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .title-bar .buttons {
+      display: flex;
+      gap: 5px;
+    }
+
+    .title-bar button {
+      width: 20px;
+      height: 20px;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+    }
